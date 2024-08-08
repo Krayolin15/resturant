@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dessert Recipes</title>
+    <link rel="stylesheet" href="Recipes.css">
+</head>
+<body>
+    <section>
+        <div class="icon-container">
+            <a href="dashboard.html"><img class="fas fa-home" src="icons8-home-50.png" alt="home"></a>
+            </div>
+        <h1 class="main-title">Dessert Recipes</h1>
+
+        <div class="dessert-container">
+            <div class="dessert-item" onclick="showRecipe('chocolate-cake')">
+                <h2 class="dessert-title">Chocolate Cake</h2>
+                <img src="images (15).jpeg" alt="Chocolate Cake">
+            </div>
+
+            <div class="dessert-item" onclick="showRecipe('strawberry-cheesecake')">
+                <h2 class="dessert-title">Strawberry Cheesecake</h2>
+                <img src="images (16).jpeg" alt="Strawberry Cheesecake">
+            </div>
+
+            <div class="dessert-item" onclick="showRecipe('tiramisu')">
+                <h2 class="dessert-title">Tiramisu</h2>
+                <img src="images (17).jpeg" alt="Tiramisu">
+            </div>
+
+            <div class="dessert-item" onclick="showRecipe('macarons')">
+                <h2 class="dessert-title">Macarons</h2>
+                <img src="images (18).jpeg" alt="Macarons">
+            </div>
+
+            <div class="dessert-item" onclick="showRecipe('strawberry-pie')">
+                <h2 class="dessert-title">Strawberry Pie</h2>
+                <img src="OIP (11).jpg" alt="Strawberry Pie">
+            </div>
+
+            <div class="dessert-item" onclick="showRecipe('chocolate-mousse')">
+                <h2 class="dessert-title">Chocolate Mousse Toasted Almond Mixed Berry Tart</h2>
+                <img src="Chocolate-mousse-toasted-almond-mixed-berry-tart-e1613002300532.webp" alt="Chocolate Mousse Tart">
+            </div>
+        </div>
+
+        <div id="recipe-details" class="recipe-details">
+            <h2 id="recipe-title">Recipe Details</h2>
+            <p id="recipe-description">Click on a dessert to see the recipe.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

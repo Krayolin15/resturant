@@ -1,0 +1,173 @@
+
+body {
+    background-image: url('https://wallpaperaccess.com/full/3692558.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    color: #f1c40f;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+    border: 4px dashed #e74c3c;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    display: inline-block;
+    margin-right: 600px;
+  margin-left: 600px;
+  margin-bottom: 100px;
+ margin-top: 100px; 
+ width: 25%;
+ text-align: center;
+ align-items: center;
+}
+
+.highlight {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.highlight2 {
+    color: #9b59b6;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    margin: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px; 
+
+.content-container {
+    perspective: 1200px; /* Adds a 3D perspective */
+}
+
+.animated-paragraph {
+    display: inline-block;
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
+    color: #2c3e50;
+    padding: 30px;
+    background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+    border: 3px solid #95a5a6;
+    border-radius: 20px;
+    transform-origin: center center;
+    animation: openBook 2.5s ease-out forwards;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes openBook {
+    0% {
+        transform: rotateX(90deg);
+        opacity: 0;
+        filter: blur(5px);
+    }
+    100% {
+        transform: rotateX(0deg);
+        opacity: 1;
+        filter: blur(0);
+    }
+
+}
+}
+
+.content-container {
+    perspective: 1200px; /* Adds a 3D perspective */
+    margin-top: -50px; /* Adjust this value to move the paragraph up */
+}
+
+.animated-paragraph {
+    display: inline-block;
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
+    color: #2c3e50;
+    padding: 30px;
+    background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+    border: 3px solid #95a5a6;
+    border-radius: 20px;
+    transform-origin: center center;
+    animation: openBook 2.5s ease-out forwards;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: -20px; /* Adjust this value to fine-tune the position */
+}
+
+.summary {
+    color: #28a745; /* Bright green color */
+    font-size: 30px; /* Larger font size */
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold; /* Bold text */
+    margin: 5px; /* Increased margin for more spacing */
+    margin-bottom: 120px; /* More spacing at the bottom */
+    margin-top: 1px; /* More spacing at the top */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Shadow for a 3D effect */
+    background-color: #f8f9fa; /* Light background color to highlight text */
+    padding: 10px; /* Padding around the text */
+    border: 2px solid #28a745; /* Border to frame the text */
+    border-radius: 10px; /* Rounded corners for the border */
+    margin-right: 1100px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Base styling for the icon container */
+.icon-container {
+    display: inline-block;
+    padding: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Base styling for the icon */
+.icon-container i {
+    font-size: 24px;
+    color: #333; /* Base color of the icon */
+}
+
+/* Hover effect */
+.icon-container:hover {
+    color: #007bff; /* Color on hover */
+    transform: scale(1.2); /* Zoom effect on hover */
+}
